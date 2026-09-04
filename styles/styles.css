@@ -525,14 +525,6 @@ body {
   align-items: center;
 }
 
-.newsletter-label {
-  grid-area: 1/1/2/2;
-  font-size: var(--font-size-s);
-  line-height: var(--line-height-l);
-  margin-left: 20px;
-  color: transparent;
-}
-
 .input {
   border: none;
   font-family: inherit;
@@ -564,14 +556,6 @@ body {
 }
 
 .newsletter-field:focus::placeholder {
-  color: transparent;
-}
-
-.newsletter-field:focus + .newsletter-label {
-  color: var(--color-black-transparent-30);
-}
-
-.newsletter-field:not(:placeholder-shown) + .newsletter-label {
   color: transparent;
 }
 
